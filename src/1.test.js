@@ -47,7 +47,6 @@ test('Day 1 - Problem 1', () => {
 });
 
 test('Day 1 - Problem 2', () => {
-  console.log(EXPENSES);
   let answer = findThree(EXPENSES);
   expect(answer).toBe(138233720);
 });
